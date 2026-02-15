@@ -12,7 +12,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 # -----------------------------
 # Load Dataset
 # -----------------------------
-# Use bank-full.csv (semicolon separated file)
+
 df = pd.read_csv("bank-full.csv", sep=';')
 
 print("First 5 rows:")
